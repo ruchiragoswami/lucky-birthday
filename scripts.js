@@ -1,20 +1,21 @@
 let dob = document.querySelector("#dob");
 let luckyNum = document.querySelector("#luckyNum");
+let showLucky  = document.querySelector("#showLucky");
 let btnCheck = document.querySelector("#btn-check");
 
+showLucky.style.display="none"; 
 
 function divide(someDate, someNum) {
     let answer=  someDate % someNum; 
     console.log(answer + " is your answer"); 
-
-
-
+    showLucky.style.display="block";
     if (!answer) {
         console.log("Your birthday is lucky");
+        showLucky.innerText= " YAY ! Your birthday is lucky" ;
     } else {
         console.log("your birtday is not lucky");
+        showLucky.innerText = "Aww... Your birthday is not that lucky for this number";
     }
-
 }
 
 

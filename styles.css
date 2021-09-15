@@ -1,26 +1,61 @@
+:root {
+    --color1: #DB0038;
+    --color2: #F7C200;
+    --color3: #519dd9;
+    --color4: #53BAC1;
+    --color5: #EDEDED;
+
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
 .main-container {
-    border: 2px solid blueviolet; 
+    border: 2px solid blueviolet;
     max-width: 500px;
-    margin: 0 auto; 
+    margin: 1rem auto;
+    padding: 1rem;
+
 }
 
 h1 {
-    margin: 0 auto; 
-    text-align: center;
-    border: 1px solid red; 
+    margin: 2rem auto 0 auto;
+    text-align: left;
+    /* border: 1px solid red;  */
 }
 
-div{
-    margin: 2rem 0; 
-    padding: 1rem; 
+label,
+input {
+    
+    max-width: 500px;
+    border-radius: 11px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    /* border: 1px solid red;  */
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+div {
+    margin: 2rem 0;
+    padding: 1rem;
 }
 
 button {
     display: block;
-    margin:0 auto;
+    /* margin: 0 auto; */
+    /* padding: 100px;  */
+    padding: 0.8rem; 
+    width: 200px; 
+    cursor: pointer;
+    margin-left: 1rem;;
+    border-radius: 11px;
 }
