@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    border: 2px solid blueviolet; 
+    max-width: 500px;
+    margin: 0 auto; 
+}
+
+h1 {
+    margin: 0 auto; 
+    text-align: center;
+    border: 1px solid red; 
+}
+
+div{
+    margin: 2rem 0; 
+    padding: 1rem; 
+}
+
+button {
+    display: block;
+    margin:0 auto;
+}
