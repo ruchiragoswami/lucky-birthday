@@ -6,6 +6,15 @@ let btnCheck = document.querySelector("#btn-check");
 function divide(someDate, someNum) {
     let answer=  someDate % someNum; 
     console.log(answer + " is your answer"); 
+
+
+
+    if (!answer) {
+        console.log("Your birthday is lucky");
+    } else {
+        console.log("your birtday is not lucky");
+    }
+
 }
 
 
