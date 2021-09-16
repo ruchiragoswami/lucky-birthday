@@ -14,7 +14,7 @@ function divide(someDate, someNum) {
     showLucky.style.display="block";
     if (!answer) {
         console.log("Your birthday is lucky");
-        showLucky.innerText= " YAY ! Your birthday is lucky" ;
+        showLucky.innerText= " 🎉 YAY ! Your birthday is lucky 🎁" ;
     // } else if (answer === NaN) {
     //     showLucky.innerText = "Please enter a valid input! "
     } else {
