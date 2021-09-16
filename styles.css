@@ -2,30 +2,25 @@
 
 :root {
     --color1: #DB0038;
-    --color2: #eeda94;
+    --color2: #f0d265;
     --color3: #519dd9;
     --color4: #53BAC1;
     --color5: #EDEDED;
-
 }
 
 body {
     margin: 0;
     padding: 0;
     text-align: left;
-    font-family:Catamaran ;
+    font-family: Catamaran;
     background-color: var(--color5);
     color: var(--color1);
 }
 
 .main-container {
-    /* border: 2px solid rgb(124, 117, 131); */
     max-width: 600px;
     margin: 0 auto;
     padding: 1rem;
-    /* text-align: center; */
-
-    /* To push footer at the bottom */
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -36,9 +31,6 @@ h1 {
     margin: 2rem auto auto 1rem;
     padding: 1rem;
     color: var(--color3)
-    /* text-align: center; */
-
-    /* border: 1px solid red;  */
 }
 
 label,
@@ -53,76 +45,58 @@ label {
 }
 
 input {
-    /* border: 1px solid red;  */
     margin-top: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    /* background-color: var(--color4); */
+
 }
 
 .inp {
-
     padding: 1rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    /* text-align: left; */
-    /* border: 1px solid var(--color1); */
+
 }
 
 span {
     font-size: 3rem;
-    margin-left: 1.5rem; ;
+    margin-left: 1.5rem;
 }
 
 #btn-check {
     display: block;
-    /* text-align: left; */
     margin: 2rem;
     padding: 0.8rem;
     width: 100px;
     cursor: pointer;
-    /* margin: 2rem 2rem 2rem 2rem; */
-    /* margin-bottom: 2re; */
     border-radius: 11px;
-    background-color: var(--color3);
-    color: var(--color5);
+    background-color: var(--color2);
+    color: var(--color3);
     font-weight: bolder;
     font-size: 1.1rem;
-    /* border: 1px solid var(--color1); */
 }
 
-textarea {
+#showLucky {
+    padding: 1rem;
     margin: 2rem auto;
-    width: 90%;
-    max-height: 10rem;
-    border: none;
     font-size: 1.5rem;
-    text-align: center;
-    background-color: var(--color1);
-    color: var(--color5);
-    border-radius: 11px;
-    /* border: 2px solid firebrick; */
+    background-color: var(--color5);
+    color: var(--color1);
 }
 
 /*footer styles */
 
 footer {
-    /* border: 2px solid firebrick; */
-    /* margin-top: 5rem; */
-    /* display: block; */
-    /* background-color: var(--color2); */
-    padding: 1rem;
+    padding: 1rem;    
 }
 
 .two-columns {
     text-align: left;
-    margin-top: 3rem;
-    /* padding: 0.5rem; */
-    /* border: 1px solid green;  */
+    margin-top: 3rem;   
 }
 
-.two-columns>p {
-    margin: 1.5rem;
+.two-columns>p {    
+    margin: 0;
 }
 
 .two-columns>p>a:first-child {
@@ -133,7 +107,6 @@ footer {
 }
 
 .two-columns>p>a>img {
-    /* border: 2px solid red;  */
     width: 35px;
     height: 35px;
     margin: 0.4rem;
